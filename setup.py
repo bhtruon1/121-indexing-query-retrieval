@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from pymongo import *
+from bs4 import BeautifulSoup
 
 #  Verify mongo exists and is running, set up database schema 
 
@@ -11,4 +12,5 @@ Dictionary = db["Dictionary"]
 # tokenInfo = {"token": "Ben", "Postings": {"doc1": 3.2, "doc2": 4}} 
 # token_id = Dictionary.insert(tokenInfo) 
 # print(Dictionary.find_one())
+
 
