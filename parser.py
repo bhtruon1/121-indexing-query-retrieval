@@ -1,23 +1,45 @@
 #!/usr/bin/python
 
+import os
+import sys
+from bs4 import BeautifulSoup
+
+class Reader:
+    def __init__(self):
+        self.docDict = {}
+        self.rootDir = "WEBPAGES_RAW"
+
+    def getInput(self):          
+        for subdir, dirs, files in os.walk(self.rootDir):
+            for f in files:
+                path = os.path.join(subdir, f)
+                parser = Parser()
+                parser.input(path) 
+                self.docDict[path] = parser.tokenDict
 class Parser:
-    def __init__():
+    def __init__(self):
         self.tokenDict = {}
-    def input_to_string():
-        # turn input html to contentString 
-        pass
-    def input():
-        # get input from RAW WEBSITES
-        pass
-    def parseString(self, rawInput):
+
+    def input(self, path):
+        try:
+            print(path)
+            doc = open(path, 'r')
+            rawHTML = doc.read()
+#            soup = BeautifulSoup(rawHTML)
+        except IOError:
+            print("File {} Doesn't Exist".format(path))
+
+
+    def parseString(self, string):
         word = ""
-        for char in rawInput:
+        for char in string:
             if str(char).isalum() and str(char) != "_":
                 word += char
             else:
                 if  word and word != "_":
                     self.newWord(word)
                 word = ""
+
     def newWord(self, word):
         if word in self.result.key():
             self.result[word] += 1
@@ -25,4 +47,5 @@ class Parser:
             self.result[word] = 1
  
                 
-        
+r = Reader()
+r.getInput()
