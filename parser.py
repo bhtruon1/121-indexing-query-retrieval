@@ -15,7 +15,8 @@ class Reader:
                 path = os.path.join(subdir, f)
                 parser = Parser()
                 parser.input(path) 
-                self.docDict[path] = parser.tokenDict
+                self.docDict[path] = parser.tokenDict #placeholder for db
+
 class Parser:
     def __init__(self):
         self.tokenDict = {}
@@ -25,7 +26,7 @@ class Parser:
             print(path)
             doc = open(path, 'r')
             rawHTML = doc.read()
-#            soup = BeautifulSoup(rawHTML)
+            soup = BeautifulSoup(rawHTML, "lxml", text=True)
         except IOError:
             print("File {} Doesn't Exist".format(path))
 
@@ -33,7 +34,7 @@ class Parser:
     def parseString(self, string):
         word = ""
         for char in string:
-            if str(char).isalum() and str(char) != "_":
+            if str(char).isalnum() and str(char) != "_":
                 word += char
             else:
                 if  word and word != "_":
@@ -41,10 +42,10 @@ class Parser:
                 word = ""
 
     def newWord(self, word):
-        if word in self.result.key():
-            self.result[word] += 1
+        if word in self.tokenDict.keys():
+            self.tokenDict[word] += 1
         else:
-            self.result[word] = 1
+            self.tokenDict[word] = 1
  
                 
 r = Reader()
