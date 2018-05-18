@@ -25,7 +25,7 @@ def save_pickleFile():
     r = Reader()
     r.getInput()
     r.freq_to_tfidf()
-    print(r.tokenDict)
+    #print(r.tokenDict)
     save_analytics(r) 
     pickle.dump(r.tokenDict, open("save.p", "wb"))
 

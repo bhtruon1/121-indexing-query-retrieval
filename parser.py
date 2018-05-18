@@ -75,10 +75,11 @@ class Parser:
         #print(string)
         word = u""
         for char in string:
-            if char.isalnum() and char != u" ":
+            if char.isalpha() or char.isdigit():
                 word += char
-            elif word and word != "": 
-                self.newWord(word)
+            else:
+                if word != u"": 
+                    self.newWord(word)
                 word = ""
                      
     def newWord(self, word):
