@@ -3,9 +3,12 @@
 import re
 import os
 import sys
+import math
 from nltk.tokenize import RegexpTokenizer
 from pymongo import *
 from bs4 import BeautifulSoup
+
+#format of dictionary: {token : {docID: freq/tfidf}}
 
 class Reader:
     def __init__(self):
@@ -18,36 +21,34 @@ class Reader:
         for subdir, dirs, files in os.walk(self.rootDir):
             for f in files:
                 if ".json" not in f and ".tsv" not in f:  
-                    self.docCount += 1
                     path = os.path.join(subdir, f)
                     #print(path)
                     parser = Parser(self.tokenDict, path[13:])
                     parser.input(path) 
-                    #self.putDatabase(parser.tokenDict, path[13:], parser.totalFreq)
                     self.tokenDict = parser.tokenDict
+                    self.docCount += 1
                     #print(self.tokenDict)
 
-    def tfidf(self):
+    def get_number_of_docs(self):
+        return self.docCount
+ 
+    def get_number_of_tokens(self):
+        return len(self.tokenDict) 
+ 
+    def freq_to_tfidf(self):
+       for token in self.tokenDict:
+           dft = len(self.tokenDict[token]) 
+           for docID in self.tokenDict[token]:
+               tftd = self.tokenDict[token][docID] 
+               self.tokenDict[token][docID] = self.tfidf(tftd, dft)
+
+    def tfidf(self, tftd, dft):
        # W(t, d) = [1 + log(tftd)] * log(N/dft))
-       # df(t) =  number of doc that contain the token 
+       # dft = number of doc that contain the token 
        # tftd = number of tokens in the doc
-               
-
-
-       return 1.1
-
-    def putDatabase(self, tokenDict, docID, totalFreq):
-        for token, freq in tokenDict.items():
-            query = {'token': token} 
-            postings = {} 
-            old_dict = self.Dictionary.find_one(query)
-            
-            if old_dict != None:
-                 postings = old_dict["Postings"]
-
-            postings[docID] =  self.tfidf(freq, tokenDict)
-            new_dict = {"token": token, "Postings": postings} 
-            self.Dictionary.save(new_dict)
+       N = self.docCount
+       result = (1 + math.log10(tftd)) * math.log10(N/dft)                 
+       return result
 
     def writeFile(self):
         with open("dictionary.txt", "w") as log:
@@ -70,7 +71,6 @@ class Parser:
         except IOError:
             print("File {} Doesn't Exist".format(path))
 
-
     def parseString(self, string):
         #print(string)
         word = u""
@@ -81,7 +81,6 @@ class Parser:
                 self.newWord(word)
                 word = ""
                      
-
     def newWord(self, word):
         try:
             if self.docID in self.tokenDict[word]: 
@@ -92,7 +91,3 @@ class Parser:
             self.tokenDict[word] = {self.docID: 1}
         self.totalFreq += 1
                 
-r = Reader()
-r.getInput()
-print(r.tokenDict)
-r.writeFile()

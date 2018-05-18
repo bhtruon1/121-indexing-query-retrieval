@@ -1,0 +1,3 @@
+Number of documents of the corpus: 37497
+Number of tokens present in index: 935190
+The total size (in KB) of index of disk: 
