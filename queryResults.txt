@@ -1,35 +1,36 @@
-1 Informatics
-www.ics.uci.edu/community/news/view_news.php?id=1108
-www.ics.uci.edu/~kay/courses/i41/hw/lab5.html
-www.ics.uci.edu/ugrad/index/grad/admissions/dept
-www.ics.uci.edu/~dechter/courses/ics-275a/spring-2009
-www.ics.uci.edu/ugrad/degrees/degree_cgs.php
-www.ics.uci.edu/~kay/courses/131/hw/hw2.html
-www.ics.uci.edu/~shendric
-www.ics.uci.edu/involved/project_class/ugrad/policies/tech_talk.php
-www.ics.uci.edu/~develop/AD_Research?C=S;O=D
-www.ics.uci.edu/~thornton/cs141/ProjectGuide
+Informatics
+1.  www.ics.uci.edu/~andre/informatics121s2007.html
+2.  www.ics.uci.edu/about/brenhall/../about_deanmsg.php
+3.  www.ics.uci.edu/community/news/view_news.php?id=1108
+4.  www.ics.uci.edu/~kay/courses/i41/hw/lab5.html
+5.  www.ics.uci.edu/ugrad/index/grad/admissions/dept
+6.  www.ics.uci.edu/~dechter/courses/ics-275a/spring-2009
+7.  www.ics.uci.edu/ugrad/degrees/degree_cgs.php
+8.  www.ics.uci.edu/~kay/courses/131/hw/hw2.html
+9.  www.ics.uci.edu/~shendric
+10. www.ics.uci.edu/involved/project_class/ugrad/policies/tech_talk.php
 	
-2 Mondego
-www.ics.uci.edu/community/news/notes/notes_2014.php
-www.ics.uci.edu/community/news/notes/notes_2013.php
-mondego.ics.uci.edu/projects/clonedetection/tool/demo?C=D;O=A
-mondego.ics.uci.edu/datasets?C=M;O=A
-mondego.ics.uci.edu/projects/clonedetection
-mondego.ics.uci.edu/projects/clonedetection/tool
-mondego.ics.uci.edu/projects/clonedetection/tool/latest?C=S;O=A
-mondego.ics.uci.edu/projects/clonedetection/tool/latest?C=N;O=D
-mondego.ics.uci.edu/projects/clonedetection/tool/latest/plugins?C=M;O=A
-mondego.ics.uci.edu/projects/clonedetection/tool/source?C=D;O=D
+Mondego
+1.  mondego.ics.uci.edu/projects/clonedetection/tool/latest/features?C=D;O=D
+2.  mondego.ics.uci.edu/projects/clonedetection/tool/source
+3.  www.ics.uci.edu/~aftabh
+4.  mondego.ics.uci.edu/datasets/wikipedia-events?C=M;O=D
+5.  mondego.ics.uci.edu/datasets/wikipedia-events/files?C=M;O=A
+6.  mondego.ics.uci.edu/projects/clonedetection/tool/latest?C=S;O=A
+7.  mondego.ics.uci.edu/projects/clonedetection/tool?C=M;O=D
+8.  mondego.ics.uci.edu/projects/clonedetection/tool/latest/features?C=N;O=A
+9.  mondego.ics.uci.edu/projects/clonedetection/tool/source?C=D;O=D
+10. mondego.ics.uci.edu/datasets?C=M;O=A
 
 3 Irvine	
-www.ics.uci.edu/grad/sao
-evoke.ics.uci.edu?attachment_id=318&replytocom=5959
-www.ics.uci.edu/prospective/vi/contact/student-affairs/contact/student-affairs/contact/contact/student-affairs/%E2%80%8B
-flamingo.ics.uci.edu/releases/1.0/src/filtertree?C=D;O=D
-www.ics.uci.edu/~eppstein/junkyard/qtvr/bb3d.pov
-radicle.ics.uci.edu/pub.html
-www.ics.uci.edu/community/events/openhouse/research03.html
-www.ics.uci.edu/~goodrich/teach/cs161/notes
-archive.ics.uci.edu/ml/support/Iris
-www.ics.uci.edu/IRUS/bart/flyers/99/mar99.html
+1.  fano.ics.uci.edu/cites/Document/Strong-separations-for-the-boolean-hierarchy-over-RP.html
+2.  fano.ics.uci.edu/cites/Author/Yves-Crama.html
+3.  www.ics.uci.edu/~ejw/authoring/scenarios/draft-ietf-webdav-scenarios-00.txt
+4.  fano.ics.uci.edu/cites/Publication/HagNow-SPAA-90.html
+5.  fano.ics.uci.edu/cites/Document/Shortest-paths-in-chemical-kinetic-applications.html
+6.  sli.ics.uci.edu/Library
+7.  sli.ics.uci.edu/Classes/2011W-178-Comments?action=edit
+8.  fano.ics.uci.edu/cites/Organization/Johns-Hopkins-Univ-Dept-of-Radiology.html
+9.  www.ics.uci.edu/~dechter/courses/ics-6a/fall-00/schedule.html
+10. www.ics.uci.edu/~mlearn/mlrepository.html
+

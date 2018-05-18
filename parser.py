@@ -65,9 +65,9 @@ class Parser:
             with open(path, 'r', encoding='utf-8') as doc:
                 rawHTML = doc.read()
                 soup = BeautifulSoup(rawHTML, "html.parser")
-                text = soup.find_all(text=True)
-                for string in text:
-                    self.parseString(string.lower())
+                text = soup.get_text()
+                #print(text)
+                self.parseString(text.lower())
         except IOError:
             print("File {} Doesn't Exist".format(path))
 
@@ -80,7 +80,7 @@ class Parser:
             else:
                 if word != u"": 
                     self.newWord(word)
-                word = ""
+                word = u""
                      
     def newWord(self, word):
         try:

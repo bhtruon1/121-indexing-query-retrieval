@@ -32,7 +32,7 @@ def main():
             
             counter = 0    
             for key in path:
-                if counter > i:
+                if counter >= i:
                     break  
                 print(bookkeeping[key])
                 counter += 1

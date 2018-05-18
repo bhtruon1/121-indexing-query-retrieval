@@ -2,6 +2,7 @@
 
 from parser import *
 import pickle
+import os
 
 #  Verify mongo exists and is running, set up database schema 
 
@@ -19,14 +20,14 @@ def save_analytics(r):
   with open("analytics.txt", "w") as log:
       log.write("Number of documents of the corpus: {}\n".format(r.get_number_of_docs()))
       log.write("Number of tokens present in index: {}\n".format(r.get_number_of_tokens()))
-      log.write("The total size (in KB) of index of disk: ")
+      log.write("The total size (in KB) of index of disk: {}".format(os.path.getsize("save.p")/1000))
 
 def save_pickleFile():
     r = Reader()
     r.getInput()
     r.freq_to_tfidf()
     #print(r.tokenDict)
-    save_analytics(r) 
     pickle.dump(r.tokenDict, open("save.p", "wb"))
+    save_analytics(r) 
 
 save_pickleFile() 
