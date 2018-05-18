@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+from parser import *
 from pymongo import *
 from bs4 import BeautifulSoup
 
@@ -14,4 +15,7 @@ Dictionary.create_index([("token", ASCENDING)])
 # token_id = Dictionary.insert(tokenInfo) 
 # print(Dictionary.find_one())
 
-
+r = Reader()
+r.getInput()
+print(r.tokenDict)
+r.writeFile()
