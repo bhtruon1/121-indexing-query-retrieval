@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import pickle
+import operator
 
 def tsv_to_urls():
     bookkeeping = {}
@@ -31,10 +32,12 @@ def main():
                 i = len(path) + 1
             
             counter = 0    
-            for key in path:
+            sorted_path = sorted(path.items(), key=operator.itemgetter(1), reverse=True) 
+            for key in sorted_path:
                 if counter >= i:
                     break  
-                print(bookkeeping[key])
+                print(bookkeeping[key[0]])
+                print(path[key[0]])
                 counter += 1
 
         except KeyError:

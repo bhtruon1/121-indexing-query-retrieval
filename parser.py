@@ -75,7 +75,7 @@ class Parser:
         #print(string)
         word = u""
         for char in string:
-            if char.isalpha() or char.isdigit():
+            if char.isalpha(): #or char.isdigit():
                 word += char
             else:
                 if word != u"": 

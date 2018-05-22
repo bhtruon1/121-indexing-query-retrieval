@@ -1,36 +1,37 @@
 Informatics
-1.  www.ics.uci.edu/~andre/informatics121s2007.html
-2.  www.ics.uci.edu/about/brenhall/../about_deanmsg.php
-3.  www.ics.uci.edu/community/news/view_news.php?id=1108
-4.  www.ics.uci.edu/~kay/courses/i41/hw/lab5.html
-5.  www.ics.uci.edu/ugrad/index/grad/admissions/dept
-6.  www.ics.uci.edu/~dechter/courses/ics-275a/spring-2009
-7.  www.ics.uci.edu/ugrad/degrees/degree_cgs.php
-8.  www.ics.uci.edu/~kay/courses/131/hw/hw2.html
-9.  www.ics.uci.edu/~shendric
-10. www.ics.uci.edu/involved/project_class/ugrad/policies/tech_talk.php
-	
-Mondego
-1.  mondego.ics.uci.edu/projects/clonedetection/tool/latest/features?C=D;O=D
-2.  mondego.ics.uci.edu/projects/clonedetection/tool/source
-3.  www.ics.uci.edu/~aftabh
-4.  mondego.ics.uci.edu/datasets/wikipedia-events?C=M;O=D
-5.  mondego.ics.uci.edu/datasets/wikipedia-events/files?C=M;O=A
-6.  mondego.ics.uci.edu/projects/clonedetection/tool/latest?C=S;O=A
-7.  mondego.ics.uci.edu/projects/clonedetection/tool?C=M;O=D
-8.  mondego.ics.uci.edu/projects/clonedetection/tool/latest/features?C=N;O=A
-9.  mondego.ics.uci.edu/projects/clonedetection/tool/source?C=D;O=D
-10. mondego.ics.uci.edu/datasets?C=M;O=A
+www.ics.uci.edu/faculty/index.php
+www.ics.uci.edu/faculty
+www.ics.uci.edu/faculty/index.php?department=Informatics
+www.ics.uci.edu/~kay/courses/previous.html
+www.ics.uci.edu/community/news/notes/notes_2008.php
+www.ics.uci.edu/ugrad/degrees/degree_in4matx.php
+www.ics.uci.edu/~andre/teaching.html
+www.ics.uci.edu/community/news/notes/notes_2014.php
+www.ics.uci.edu/about/annualreport/2006-07/events.php
+www.ics.uci.edu/community/news/spotlight/spotlight_purpura.php
 
-3 Irvine	
-1.  fano.ics.uci.edu/cites/Document/Strong-separations-for-the-boolean-hierarchy-over-RP.html
-2.  fano.ics.uci.edu/cites/Author/Yves-Crama.html
-3.  www.ics.uci.edu/~ejw/authoring/scenarios/draft-ietf-webdav-scenarios-00.txt
-4.  fano.ics.uci.edu/cites/Publication/HagNow-SPAA-90.html
-5.  fano.ics.uci.edu/cites/Document/Shortest-paths-in-chemical-kinetic-applications.html
-6.  sli.ics.uci.edu/Library
-7.  sli.ics.uci.edu/Classes/2011W-178-Comments?action=edit
-8.  fano.ics.uci.edu/cites/Organization/Johns-Hopkins-Univ-Dept-of-Radiology.html
-9.  www.ics.uci.edu/~dechter/courses/ics-6a/fall-00/schedule.html
-10. www.ics.uci.edu/~mlearn/mlrepository.html
+Mondego
+mondego.ics.uci.edu
+mondego.ics.uci.edu/projects/yelp
+mondego.ics.uci.edu/projects/clonedetection
+mondego.ics.uci.edu/projects/SourcererCC
+www.ics.uci.edu/~vpsaini
+www.ics.uci.edu/~lopes
+mondego.ics.uci.edu/projects/clonedetection/tool/source?C=S;O=D
+mondego.ics.uci.edu/projects/clonedetection/tool?C=M;O=A
+mondego.ics.uci.edu/projects/clonedetection/tool/source?C=D;O=D
+mondego.ics.uci.edu/datasets/wikipedia-events?C=M;O=D
+
+
+Irvine	
+www.ics.uci.edu/~eppstein/bibs/eppstein.html
+www.ics.uci.edu/~eppstein/bibs/eppstein.bib
+www.ics.uci.edu/facebook/events/340846149648374?acontext=%7B%22ref%22%3A%2298%22%2C%22action_history%22%3A%22null%22%7D
+www.ics.uci.edu/facebook/pages/create/dialog/UCIBrenICS/photos/a.10150104180706909.283411.106291486908/10154351203306909?type=3
+www.ics.uci.edu/facebook/login/browse/fanned_pages/search/str/%25E6%2595%2599%25E8%2582%25B2/keywords_pages?ref=page_about_category
+www.ics.uci.edu/facebook/pages/create/dialog/UCIBrenICS/videos/10154385262331909/search/112204368792315/places-in/199405806739848/places/intersect/events/711137452397667?acontext=%7B%22source%22%3A3%2C%22source_newsfeed_story_type%22%3A%22regular%22%2C%22action_history%22%3A%22%5B%7B%5C%22surface%5C%22%3A%5C%22newsfeed%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22feed_story%5C%22%2C%5C%22extra_data%5C%22%3A%5B%5D%7D%5D%22%2C%22has_source%22%3Atrue%7D&source=3&source_newsfeed_story_type=regular&action_history=%5B%7B%22surface%22%3A%22newsfeed%22%2C%22mechanism%22%3A%22feed_story%22%2C%22extra_data%22%3A%5B%5D%7D%5D&has_source=1&hc_ref=PAGES_TIMELINE
+www.ics.uci.edu/facebook/events/340846149648374/UCIReunion2017/photos/o.106291486908/262134790874470/browse/fanned_pages/login/search/str/%25E6%2595%2599%25E8%2582%25B2/keywords_pages?ref=page_about_category
+www.ics.uci.edu/facebook/search/str/%25E6%2595%2599%25E8%2582%25B2/keywords_pages/events/246966085750971/UCIBrenICS/photos/a.10150104180706909.283411.106291486908/10154351203306909/browse/fanned_pages?id=106291486908&showauxiliary=1&fanorigin=timeline_like_chaining&ref=page_internal
+www.ics.uci.edu/facebook/browse/likes/login/UCIBrenICS/photos/a.10150104180706909.283411.106291486908/10154402706541909?type=3
+www.ics.uci.edu/facebook/events/340846149648374/UCIReunion2017/photos/o.106291486908/262134790874470/browse/fanned_pages/UCIBrenICS/videos/10154385262331909
 
