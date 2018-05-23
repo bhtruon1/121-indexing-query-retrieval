@@ -4,8 +4,6 @@ import re
 import os
 import sys
 import math
-from nltk.tokenize import RegexpTokenizer
-from pymongo import *
 from bs4 import BeautifulSoup
 
 #format of dictionary: {token : {docID: freq/tfidf}}
@@ -81,6 +79,8 @@ class Parser:
                 if word != u"": 
                     self.newWord(word)
                 word = u""
+        if word != u"":
+            self.newWord(word)
                      
     def newWord(self, word):
         try:
