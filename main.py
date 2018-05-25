@@ -47,6 +47,7 @@ def printResults(path, limit):
         if counter >= i:
             break
         print(bookkeeping[key[0]])
+        #print(key[1]) 
         counter += 1
 
 def splitWords(string, limit):

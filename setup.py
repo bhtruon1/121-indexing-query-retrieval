@@ -17,4 +17,3 @@ def construct_and_pickle_index():
 
     print("Writing analytics...")
     r.saveAnalytics()
-

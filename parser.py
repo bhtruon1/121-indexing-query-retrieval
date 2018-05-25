@@ -17,7 +17,7 @@ class Reader:
     # Finds all non-json and non-tsv files in root dir and 
     # uses Parser to create a tokenDict of the form: 
     # {token -> {docID -> tf-idf}}. 
-    def __init__(self, rootDir="WEBPAGES_RAW") -> None:
+    def __init__(self, rootDir="WEBPAGES_RAW"):
         self.tokenDict = defaultdict(return_dd_int)
         self.rootDir = rootDir
         self.docCount = 0
@@ -88,7 +88,7 @@ class Parser:
         if(text == None):
             return
 
-        for word in self.gen_tokens_from_string(text):
+        for word in self.gen_tokens_from_string(text.lower()):
             self.tokenDict[word][docID] += 1
             self.tokensProcessed += 1
 
