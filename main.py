@@ -2,6 +2,8 @@
 
 import pickle
 import operator
+import os
+from setup import construct_and_pickle_index
 
 def tsv_to_urls():
     bookkeeping = {}
@@ -78,6 +80,10 @@ def main():
             print("{} not found".format(result))
         main()
 
-dictionary = pickle.load(open( "save.p", "rb" ))
-bookkeeping = tsv_to_urls()
-main()
+if __name__ == "__main__":
+    if(not os.path.isfile("save.p")):
+        construct_and_pickle_index()
+
+    dictionary = pickle.load(open( "save.p", "rb" ))
+    bookkeeping = tsv_to_urls()
+    main()

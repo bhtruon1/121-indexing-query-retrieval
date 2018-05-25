@@ -2,6 +2,8 @@
 *.pyc
 *.zip
 *.swp
+*.pdf
 WEBPAGES_RAW/
 dictionary.txt
+analytics.txt
 save.p
